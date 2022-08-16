@@ -24,5 +24,5 @@ user_push = int(input('Введите размер сдвига: '))
 my_list = create_list(user_number)
 
 print(f'Начальный список -> {my_list} <-')
-print(f'Новый список -> {hyper_push_list(my_list, user_push)} <- сдвинутый на {user_push} элемент{"ов" if user_push > 4 else "а"}')
-
+print(f'Новый список -> {hyper_push_list(my_list, user_push)} <- сдвинутый на {user_push} элемент \
+                                                                                    {"ов" if user_push > 4 else "а"}')
